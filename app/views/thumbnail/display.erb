@@ -1,0 +1,29 @@
+<div id="masthead"> 
+	<div id="name">
+		<h1>Jackie Goldberg</h1>
+	</div> 
+	<div id="call_to_action">
+		<h2>Call to Action</h2>
+	</div> 
+	<div id="title">
+    	<h3>Featured Portfolio</h3>
+	</div> 
+</div>
+<div id="filters">
+	<% @filters.each do |filter| %>
+		<div class="filter"><span><%= filter %></span></div>
+	<% end %>
+</div>
+<div id="thumbnails"> 
+	<% @thumbnails.each do |thumbnail| %> 
+		<div class="thumbnail">
+			<a title="<%= thumbnail %>" href="<%= image_path(thumbnail) %>" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
+				<img alt="<%= thumbnail %>" src="<%= image_path(thumbnail) %>">
+			</a>
+		</div>
+	<% end %>
+	<div id="spacer"></div>
+	<div id="copyright">
+		<span>&copy; 1995 - 2011 Jackie Goldberg</span>
+	</div>
+</div>

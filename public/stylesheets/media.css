@@ -1,0 +1,261 @@
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+	
+	#masthead {
+		width: 100px;
+		height: 75px;
+	}
+	
+	#thumbnails {
+		left: 0px;
+		top:  75px;
+	}
+	
+	.thumbnail {
+		width: 100%;
+		margin: 1px;
+	}
+	
+}
+
+@media only screen and (max-width: 320px) and (orientation: landscape) {
+	
+	#masthead {
+		width: 100px;
+		height: 75px;
+	}
+	
+	#thumbnails {
+		left: 100px;
+		top:  0px;
+	}
+	
+	.thumbnail {
+		width: 100%;
+		margin: 1px;
+	}
+	
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: portrait) {
+
+	#masthead {
+		width: 100px;
+		height: 75px;
+	}
+	
+	#thumbnails {
+		left:  0px;
+		top:  75px;
+	}
+	
+	.thumbnail {
+		width: 40%;
+		margin: 2px;
+	}
+	
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+
+	#masthead {
+		width: 100px;
+		height: 75px;
+	}
+	
+	#thumbnails {
+		left: 100px;
+		top:  0px;
+	}
+	
+	.thumbnail {
+		width: 40%;
+		margin: 2px;
+	}
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) and (orientation: portrait) {
+
+	#masthead {
+		width: 150px;
+		height: 100px;
+	}
+	
+	#thumbnails {
+		left:  0px;
+		top:  100px;
+	}
+	
+	.thumbnail {
+		width: 28%;
+		margin: 3px;
+	}
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) and (orientation: landscape) {
+
+	#masthead {
+		width: 150px;
+		height: 100px;
+	}
+	
+	#thumbnails {
+		left:  150px;
+		top:  0px;
+	}
+	
+	.thumbnail {
+		width: 28%;
+		margin: 3px;
+	}
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 960px) and (orientation: portrait) {
+
+	#masthead {
+		width: 240px;
+		height: 98px;
+	}
+	
+	#masthead h1 {
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	
+	#masthead h2 {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+	
+	#masthead h3 {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	#thumbnails {
+		left:  0px;
+		top: 108px;
+	}
+	
+	.thumbnail {
+		width: 22%;
+		margin: 5px;
+	}
+	
+}
+
+@media only screen and (min-width: 641px) and (max-width: 960px) and (orientation: landscape) {
+
+	#masthead {
+		width: 240px;
+		height: 78px;
+	}
+	
+	#masthead h1 {
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
+	
+	#masthead h2 {
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 10px;
+	}
+	
+	#masthead h3 {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	#thumbnails {
+		left:  250px;
+		top: 0px;
+	}
+
+	
+	.thumbnail {
+		width: 22%;
+		margin: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1280px) and (orientation: portrait) {
+
+	#masthead {
+		width: 350px;
+		height: 134px;
+	}
+	
+	#thumbnails {
+		left:  0px;
+		top:  144px;
+	}
+	
+	.thumbnail {
+		width: 14%;
+		margin: 8px;
+	}
+	
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1280px) and (orientation: landscape) {
+
+	#masthead {
+		width: 350px;
+		height: 134px;
+	}
+	
+	#thumbnails {
+		left:  360px;
+		top:  0px;
+	}
+	
+	.thumbnail {
+		width: 14%;
+		margin: 8px;
+	}
+
+}
+
+@media only screen and (min-width: 1281px) and (orientation: portrait) {
+
+	#masthead {
+		width: 450px;
+		height: 250px;
+	}
+	
+	#thumbnails {
+		left:  0px;
+		top:  250px;
+	}
+	
+	.thumbnail {
+		width: 10%;
+		margin: 12px;
+	}
+}
+
+@media only screen and (min-width: 1281px) and (orientation: landscape) {
+	
+	#masthead {
+		width: 450px;
+		height: 250px;
+	}
+	
+	#thumbnails {
+		left:  450px;
+		top:  0px;
+	}
+	
+	.thumbnail {
+		width: 10%;
+		margin: 12px;
+	}
+
+}
