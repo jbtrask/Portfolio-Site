@@ -1657,3 +1657,9 @@ Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 01:46:20) [G
 Rendering template within layouts/application
 Rendering thumbnail/display
 Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 12:50:28) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 248ms (View: 244, DB: 0) | 200 OK [http://localhost/]

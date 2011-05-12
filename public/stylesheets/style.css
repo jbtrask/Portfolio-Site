@@ -10,28 +10,24 @@ body {
 	height: 134px;
 	margin: 0px;
 	padding: 10px 0px 0px 10px;
+	background-color: #0000cc;
 }
 
 #masthead h1, #masthead h2, #masthead h3 {
-	margin: 0px;
-	padding: 0px;
+	line-height: 100%;
+	margin-bottom: 2em;
 }
 
 #masthead h1 {
 	font-size: 32px;
-	line-height: 32px;
-	margin-bottom: 40px;
 }
 
 #masthead h2 {
 	font-size: 24px;
-	line-height: 24px;
-	margin-bottom: 20px;
 }
 
 #masthead h3 {
 	font-size: 18px;
-	line-height: 18px;
 }
 
 #filters {
@@ -55,7 +51,7 @@ body {
 }
 .thumbnail {
 	float: left;
-	margin: 10px;
+	margin: 2px;
 	padding: 0px;
 	width: 18%;
 	background: #CCCCCC;
@@ -79,5 +75,7 @@ body {
 #copyright {
 	float: left;
 	clear: both;
+	color: #888888;
+	font-size: 10px;
 	margin: 10px;
 }
