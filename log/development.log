@@ -1613,3 +1613,47 @@ Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 01:28:50) [G
 Rendering template within layouts/application
 Rendering thumbnail/display
 Completed in 165ms (View: 162, DB: 0) | 200 OK [http://localhost/thumbnail]
+
+
+Processing ThumbnailController#index (for 127.0.0.1 at 2011-05-12 01:43:27) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: display):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThumbnailController#index (for 127.0.0.1 at 2011-05-12 01:44:15) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: display):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThumbnailController#index (for 127.0.0.1 at 2011-05-12 01:44:22) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: display):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThumbnailController#index (for 127.0.0.1 at 2011-05-12 01:44:24) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: display):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 01:46:09) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 800ms (View: 783, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 01:46:20) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
