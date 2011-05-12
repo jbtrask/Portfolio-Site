@@ -1303,3 +1303,47 @@ Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-11 02:45:20) [G
 Rendering template within layouts/application
 Rendering thumbnail/display
 Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/thumbnail]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-11 23:01:29) [GET]
+  Parameters: {"thumbnail"=>"thumbnail"}
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 77ms (View: 75, DB: 0) | 200 OK [http://localhost/thumbnail]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-11 23:01:39) [GET]
+
+ActionController::RoutingError (No route matches "/tumbnail" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-11 23:01:47) [GET]
+
+ActionController::RoutingError (No route matches "/T" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-11 23:01:51) [GET]
+  Parameters: {"thumbnail"=>"Th"}
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/Th]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-11 23:02:03) [GET]
+  Parameters: {"thumbnail"=>"thumb"}
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/thumb]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-11 23:03:08) [GET]
+  Parameters: {"thumbnail"=>"thumbnail"}
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 65ms (View: 8, DB: 0) | 200 OK [http://localhost/thumbnail]

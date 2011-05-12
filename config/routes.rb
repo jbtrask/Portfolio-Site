@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
 
- map.connect '/thumbnail', :controller => 'thumbnail', :action => 'display'
+ map.connect '/:thumbnail', :controller => 'thumbnail', :action => 'display', :requirements => { :thumbnail => /[Tt][Hh].*/ }
 
   # The priority is based upon order of creation: first created -> highest priority.
 
