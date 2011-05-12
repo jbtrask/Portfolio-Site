@@ -10,19 +10,22 @@
 	</div> 
 </div>
 <div id="filters">
-	<% @filters.each do |filter| %>
-		<div class="filter"><span><%= filter %></span></div>
-	<% end %>
+	<ul>
+		<% @filters.each do |filter| %>
+			<li class="filter"><span><%= filter %></span></li>
+		<% end %>
+	</ul>	
 </div>
 <div id="thumbnails"> 
-	<% @thumbnails.each do |thumbnail| %> 
-		<div class="thumbnail">
-			<a title="<%= thumbnail %>" href="<%= image_path(thumbnail) %>" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-				<img alt="<%= thumbnail %>" src="<%= image_path(thumbnail) %>">
-			</a>
-		</div>
-	<% end %>
-	<div id="spacer"></div>
+	<ul>
+		<% @thumbnails.each do |thumbnail| %> 
+			<li class="thumbnail">
+				<a title="<%= thumbnail %>" href="<%= image_path(thumbnail) %>" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
+					<img alt="<%= thumbnail %>" src="<%= image_path(thumbnail) %>">
+				</a>
+			</li>
+		<% end %>
+	</ul>
 	<div id="copyright">
 		<span>&copy; 1995 - 2011 Jackie Goldberg</span>
 	</div>
