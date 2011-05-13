@@ -1675,3 +1675,45 @@ Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 13:01:29) [G
 Rendering template within layouts/application
 Rendering thumbnail/display
 Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 13:06:51) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 77ms (View: 74, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 16:34:29) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 282ms (View: 280, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 16:35:16) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 50ms (View: 46, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-13 09:33:05) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 188ms (View: 186, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-13 09:33:10) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-13 09:33:18) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-13 09:33:19) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://localhost/]
