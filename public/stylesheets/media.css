@@ -1,7 +1,7 @@
 @media only screen and (max-width: 320px) {
 
 	#masthead {
-		width: 160px;
+		width: 200px;
 		height: 120px;
 	}
 		
@@ -31,7 +31,7 @@
 @media only screen and (max-width: 320px) and (orientation: landscape) {
 	
 	#thumbnails {
-		left: 160px;
+		left: 200px;
 		top:  0px;
 	}
 	
@@ -40,7 +40,7 @@
 @media only screen and (min-width: 321px) and (max-width: 640px) {
 
 	#masthead {
-		width: 220px;
+		width: 260px;
 		height: 160px;
 	}
 	
@@ -70,7 +70,7 @@
 @media only screen and (min-width: 321px) and (max-width: 640px) and (orientation: landscape) {
 	
 	#thumbnails {
-		left: 220px;
+		left: 260px;
 		top:  0px;
 	}
 	
@@ -79,7 +79,7 @@
 @media only screen and (min-width: 641px) and (max-width: 1280px) {
 
 	#masthead {
-		width: 280px;
+		width: 320px;
 		height: 210px;
 	}
 	
@@ -108,7 +108,7 @@
 @media only screen and (min-width: 641px) and (max-width: 1280px) and (orientation: landscape) {
 	
 	#thumbnails {
-		left: 280px;
+		left: 320px;
 		top:  0px;
 	}
 	
@@ -117,7 +117,7 @@
 @media only screen and (min-width: 1281px) {
 
 	#masthead {
-		width: 320px;
+		width: 360px;
 		height: 250px;
 	}
 		
@@ -147,7 +147,7 @@
 @media only screen and (min-width: 1281px) and (orientation: landscape) {
 	
 	#thumbnails {
-		left: 320px;
+		left: 360px;
 		top:  0px;
 	}
 	
@@ -198,4 +198,8 @@
 	.thumbnail {
 		width: 10%;
 	}
+}
+
+.thumbnail {
+	width: 1.62in;
 }
