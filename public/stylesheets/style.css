@@ -6,6 +6,7 @@ body {
 }
 
 #masthead {
+	display: fixed;
 	width: 350px;
 	height: 134px;
 	margin: 0px;
