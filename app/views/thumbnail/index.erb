@@ -1,0 +1,10 @@
+<%= render :partial => "masthead" %>
+<%= render :partial => "filters"  %>
+<div id="thumbnails"> 
+	<ul>
+		<% @thumbnails.each do |thumbnail| %> 
+			<%= render :partial => "thumbnail", :locals => { :thumbnail => thumbnail } %>
+		<% end %>
+	</ul>
+    <%= render :partial => "copyright" %>
+</div>

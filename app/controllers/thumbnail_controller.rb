@@ -4,9 +4,13 @@ class ThumbnailController < ActionController::Base
 
   layout 'application'
  
-  def display
+  def index
     @thumbnails = ["thumbnail.jpg"] * 40
     @filters = ["Filter"] * 5
+  end
+  
+  def show
+    @thumbnail = "thumbnail.jpg?id=#{params[:id]}"
   end
   
 end
