@@ -1711,3 +1711,33 @@ Processing ThumbnailController#display (for 127.0.0.1 at 2011-05-12 23:18:31) [G
 Rendering template within layouts/application
 Rendering thumbnail/display
 Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ThumbnailController#display (for 192.168.0.9 at 2011-05-12 23:36:35) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://192.168.0.3/]
+
+
+Processing ThumbnailController#display (for 192.168.0.6 at 2011-05-12 23:38:43) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://192.168.0.3/]
+
+
+Processing ThumbnailController#display (for 192.168.0.6 at 2011-05-12 23:39:46) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://192.168.0.3/]
+
+
+Processing ThumbnailController#display (for 192.168.0.9 at 2011-05-13 08:51:36) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 49ms (View: 47, DB: 0) | 200 OK [http://192.168.0.3/]
+
+
+Processing ThumbnailController#display (for 192.168.0.6 at 2011-05-13 14:45:13) [GET]
+Rendering template within layouts/application
+Rendering thumbnail/display
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://192.168.0.3/]
